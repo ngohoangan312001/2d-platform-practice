@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int jumpCount = 0;
     private float dirX;
 
-    private enum MovementState { idle, running, jumping, falling, doubleJump}
+    private enum MovementState { idle, running, jumping, falling, doubleJump, wallJump, hit}
     private MovementState state = MovementState.idle;
     // Start is called before the first frame update
     void Start()
