@@ -7,9 +7,11 @@ public class ItemCollector : MonoBehaviour
 {   
     private int bananas = 0;
     [SerializeField] private Text bananasText;
+    [SerializeField] private AudioSource collectSFX;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Banana")){
+            collectSFX.Play();
             Destroy(collision.gameObject);
             bananas++;
             bananasText.text = "Bananas: " + bananas.ToString();

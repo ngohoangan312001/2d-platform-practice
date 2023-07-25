@@ -8,7 +8,8 @@ public class PlayerLife : MonoBehaviour
 {
     private Animator animator;
     private Rigidbody2D rigidbody;
-    
+
+    [SerializeField] private AudioSource dyingSFX;
     // Start is called before the first frame update
     private void Start()
     {
@@ -26,11 +27,12 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
+        dyingSFX.Play();
         rigidbody.bodyType = RigidbodyType2D.Static;
         animator.SetTrigger("death");
     }
 
-    private void Rese()
+    private void Restart()
     {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
