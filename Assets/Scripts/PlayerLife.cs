@@ -9,11 +9,12 @@ public class PlayerLife : MonoBehaviour
 {
     private Animator animator;
     private Rigidbody2D rigidbody;
+    [SerializeField] private Text dieCountText;
+    [SerializeField] private AudioSource dyingSFX;
+
     static private int dieCount = 0;
     private bool playerIsDead = false;
-    [SerializeField] private Text dieCountText;
 
-    [SerializeField] private AudioSource dyingSFX;
     // Start is called before the first frame update
     private void Start()
     {

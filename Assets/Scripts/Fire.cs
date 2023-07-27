@@ -6,6 +6,7 @@ public class Fire : MonoBehaviour
 {
     private Animator animator;
     [SerializeField]private AudioSource FireActiveSFX;
+
     // Start is called before the first frame update
     void Start()
     {
