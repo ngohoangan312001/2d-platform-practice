@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Medusajs/medusa-ecomerce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Medusajs/medusa-storefront-test-storefront" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Medusajs/meilisearch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Unity/2D Dungeon Prototype" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Unity/2D_Topdown_Shooting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Unity/3d Action" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Unity/3d_survival_protocol" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Unity/My project 3d" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/Unity/unity-pactice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/ecomerce-nestjs-mongodb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Projects/my-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../strapi-ecomerce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../strapi-install-ts-test" vcs="Git" />
+  </component>
+</project>

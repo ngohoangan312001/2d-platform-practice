@@ -8,6 +8,8 @@ public class Finish : MonoBehaviour
     private AudioSource finishSFX;
     private Animator animator;
 
+    [SerializeField] private int nextScenceIndexPlus = 1;
+    
     private bool levelCompleted = false;
 
     // Start is called before the first frame update
@@ -32,6 +34,6 @@ public class Finish : MonoBehaviour
 
     private void LevelComplete()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + nextScenceIndexPlus);
     }
 }
